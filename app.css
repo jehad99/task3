@@ -21,5 +21,19 @@ h3{
 }
 .second-div{
     padding: 64px 16px;
-    margin: 0px 76.5px;
+    box-sizing: inherit;
+    margin: auto;
+    display: block;
+    max-width: 1050px;
+}
+.sec-left{
+    text-align: center;
+    width: 50%;
+    padding: 12px 24px;
+}
+.fa-user:before{
+    margin-right: 16px;
+}
+p{
+    margin: 15px 0px;
 }
