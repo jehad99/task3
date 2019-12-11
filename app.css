@@ -8,12 +8,7 @@
     height: 100%;
     background-size: 100% 100%;
 }
-.all{
-    font-family: 'Lato', sans-serif;
-    color: #777777;
-    line-height: 1.8;
 
-}
 h3{
     text-align: center;
     
@@ -26,13 +21,57 @@ h3{
     box-sizing: inherit;
     margin: auto;
     display: block;
-    max-width: 1050px;
+    max-width: 980px;
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 0px;
+}
+.percentage{
+    color: #000000;
+    background: #f1f1f1;
+}
+.p90{
+    color: #ffffff;
+    background: #616161;
+    width: 90%;
+    text-align: center;
+    padding: 4px 8px;
+
+}
+.p85{
+    color: #ffffff;
+    background: #616161;
+    width: 85%;
+    text-align: center;
+    padding: 4px 8px;
+}
+.p75{
+    color: #ffffff;
+    background: #616161;
+    width: 75%;
+    text-align: center;
+    padding: 4px 8px;
+}
+.wide{
+    letter-spacing: 10px;
+}
+.rd-div{
+    max-width: 980px;
+    box-sizing: inherit;
+    margin: auto;
+    display: block;
 }
 .sec-left{
     text-align: center;
     width: 50%;
     padding: 12px 24px;
-    
+    float: left;
+}
+.sec-right{
+    float: right;
+    width: 50%;
+    padding: 12px 24px;
 }
 .fa-user:before{
     margin-right: 16px;
@@ -44,10 +83,23 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-size: 15px;
 }
 .hov:hover {
     opacity: 1;
 }
 .hov{
     opacity: 0.5;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #777777;
+    line-height: 1.8;
+}
+.subtitle{
+    margin: 18px 0px;
+    padding: 16px 0px;
+    font-size: 18px;
+    text-align: center;
 }
