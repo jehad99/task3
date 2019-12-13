@@ -103,6 +103,40 @@ p{
     font-size: 18px;
     text-align: center;
 }
+.third-div{
+    color: #FFFFFF;
+    background-color: #616161;
+    padding: 16px 0px;
+}
+.blocks{
+    color: #FFFFFF;
+    background-color: #616161;
+    text-align: center;
+    display: inline-block;
+    margin: 16px 0px;
+    width: 24%;
+    font-size: 15px;
+}
+.span{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.forth-div{
+    padding: 64px 16px;
+    font-size: 15px;
+    background-image: url("Images/parallax2.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+    min-height: 400px;
+}
+.portoflio{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    position: center;
+    letter-spacing: 10px;
+}
 .fifth-div{
     padding: 64px 16px;
     text-align: center;
@@ -148,19 +182,16 @@ p{
     position: center;
     letter-spacing: 10px;
 }
-.forth-div{
+.seventh-div{
     padding: 64px 16px;
-    font-size: 15px;
-    background-image: url("Images/parallax2.jpg");
-    background-position: center;
-    background-size: cover;
-    opacity: 0.75;
-    min-height: 400px;
-}
-.portoflio{
     text-align: center;
-    color: #FFFFFF;
-    font-size: 36px;
-    position: center;
-    letter-spacing: 10px;
+    font-size: 15px;
+}
+.seventh-div img{
+    width: 25%;
+    float: left;
+    padding: 32px 0px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
