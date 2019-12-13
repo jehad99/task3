@@ -1,12 +1,11 @@
 .first-div{
-    box-sizing: border-box;
-    background-image: url ("Images/parallax1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    width: 100%;
-    background-size: contain;
-    height: 100%;
-    background-size: 100% 100%;
+    padding: 64px 16px;
+    font-size: 15px;
+    background-image: url("Images/parallax1.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+    min-height: 400px;
 }
 h3{
     text-align: center; 
