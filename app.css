@@ -216,11 +216,12 @@ p{
     clear: both;
 }
 
-.w3-col{
+.w3col{
     float: left;
     padding: 0.15px 16px;
-    height: auto;
+
     width: 33.333%;
+    padding-bottom: none;
 }
 img.w3-image{
 border-radius: 4px;
@@ -242,10 +243,13 @@ vertical-align: middle;
 div{
     display: block;
 }
-.w3-col2{
+.w3col2{
     float: right;
     width: 66.66666% ;
     text-align: left;
+    padding: 0.15px 16px;
+    margin: 16px 0px;
+    font-size: 15px;
 }
 .below{
     font-size: 18px;
@@ -263,11 +267,7 @@ div{
     color: black;
 }
 
-.w3-col2{
-    padding: 0.15px 16px;
-    margin: 16px 0px;
-    font-size: 15px;
-}
+
 .fas.fa-phone-alt::before{
     margin: 0px 16px 0px 0px;
     display: inline-block;
@@ -380,4 +380,17 @@ a{
 }
 a:hover{
     color: green;
+}
+@media only screen and (max-width:600px)
+{
+    .sec-left{width: 100%;}
+    .sec-right{display: none;}
+    .w3col{width: 100% }
+    .w3col2{width: 100% }
+    .half1{width: 100%;}
+    .half2{width: 100%;}
+    .half2{display:table-row;}
+    .half1{display:table-row;}
+    .eight-img{width: 100%;}
+    .blocks{width: 100%;}
 }
