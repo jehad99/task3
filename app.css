@@ -120,7 +120,6 @@ p{
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    color: #777777;
     line-height: 1.8;
 }
 .subtitle{
@@ -240,10 +239,6 @@ vertical-align: middle;
     font-size: 15px;
     height: auto;
 }
-.fa-fw{
-    width: 1.28571429em;
-    text-align: center;
-}
 div{
     display: block;
 }
@@ -264,6 +259,10 @@ div{
 .fa-map-marker-alt:hover{
     color: black;
 }
+.fa-phone-alt:hover{
+    color: black;
+}
+
 .w3-col2{
     padding: 0.15px 16px;
     margin: 16px 0px;
@@ -277,6 +276,10 @@ div{
     margin: 0px 16px 0px 0px;
     display: inline-block;
 }
+.fa-envelope:hover{
+    color: black;
+}
+
 input{
     padding: 8px;
    
@@ -315,4 +318,66 @@ input{
 }
 .btn1:hover .fa-paper-plane{
     color: black;
+}
+
+
+.foot{
+    text-align: center;
+    background-color: #777777;
+    width: 100%;
+    padding: 64px 0px;
+}
+.foot:hover{
+    background-color: black;
+}
+.foot:hover .fa-arrow-up{
+    color: black;
+}
+.foot:hover .btn2{
+    color: black;
+    background-color:#ffffff ;
+}
+.fa-arrow-up::before{
+    margin: 0px 16px 0px 0px;
+}
+.btn2{
+    padding: 8px 16px;
+    color: #777777;
+    background-color: #f1f1f1;
+}
+button{
+    cursor: pointer;
+}
+.awesomee{
+    color: white;
+    margin: 16px 0px;
+    padding: 8px;
+}
+.fa-facebook-square:hover{
+    color: #777777;
+}
+.fa-instagram:hover{
+    color: #777777;
+}
+.fa-pinterest-p:hover{
+    color: #777777;
+}
+.fa-snapchat:hover{
+    color: #777777;
+}
+.fa-twitter:hover{
+    color: #777777;
+}
+.fa-linkedin-in:hover{
+    color: #777777;
+}
+.lastt{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration-line: underline;
+}
+a:hover{
+    color: green;
 }
