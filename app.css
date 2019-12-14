@@ -26,10 +26,10 @@
     overflow: hidden;
     display: block;
 }
-.icons{
-    width: 30px;
-    height: 30px;
-    float: left;
+.nav-link:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    color: #000000;
 }
 h3{
     text-align: center; 
@@ -85,6 +85,7 @@ h3{
     box-sizing: inherit;
     margin: auto;
     display: block;
+    padding: 0px 16px 64px 16px;
 }
 .sec-left{
     text-align: center;
@@ -188,7 +189,7 @@ p{
     color: #000000;
 }
 .btn-light:hover{
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 .sixth-div{
     padding: 64px 16px;
