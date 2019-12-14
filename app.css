@@ -282,12 +282,37 @@ input{
    
 }
 .half1{
-    padding: 0px 8px ;
- float: left;
- display: block;
+    padding: 0px 8px 0px 0px;
+ display: table-cell;
+ width: 50%;
+}
+.half2{
+    padding: 0px 0px 0px 8px;
+ display: table-cell;
+ width: 50%;
 }
 .rowp{
-    margin: 0px  -16px 8px  -16px;
     width: 100%;
+    display: table;
+    padding: 0px;
+    margin-bottom: 8px;
 }
-
+.btn1{
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    -webkit-appearance:none;
+    float:right;
+    margin: 16px 0px;
+    padding: 8px 16px;
+}
+.btn1:hover{
+    color: black;
+    background-color: #f1f1f1;
+}
+.fa-paper-plane{
+    color: #ffffff;
+}
+.btn1:hover .fa-paper-plane{
+    color: black;
+}
