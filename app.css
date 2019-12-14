@@ -346,10 +346,7 @@ input{
     border: none;
 }
 .btn2:hover{
-    background-color: #f1f1f1;
-}
-.btn2:hover{
-    background-color:lightgrey;
+    background-color: lightgray;
 }
 button{
     cursor: pointer;
