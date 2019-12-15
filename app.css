@@ -26,11 +26,16 @@
     overflow: hidden;
     display: block;
     text-decoration: none;
+    color: #000000;
+    
 }
 .nav-link:hover{
     cursor: pointer;
     background-color: lightgrey;
     color: #000000;
+}
+.nav-image{
+    display: inline-block;
 }
 h3{
     text-align: center; 
@@ -406,6 +411,6 @@ a:hover{
     .half2{width: 100%;}
     .half2{display:table-row;}
     .half1{display:table-row;}
-    .eight-img{width: 100%;}
+    .eight-img{width: 100%; margin: 0px;}
     .blocks{width: 100%;}
 }
