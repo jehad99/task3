@@ -27,15 +27,19 @@
     display: block;
     text-decoration: none;
     color: #000000;
-    
+    position: sticky;
 }
 .nav-link:hover{
     cursor: pointer;
     background-color: lightgrey;
     color: #000000;
 }
-.nav-image{
-    display: inline-block;
+.navbar-brand{
+    float: right;
+}
+.navbar-brand:hover{
+    color: #FFFFFF;
+    background-color: red;
 }
 h3{
     text-align: center; 
@@ -403,6 +407,7 @@ a:hover{
 }
 @media only screen and (max-width:600px)
 {
+    .website{display: none;}
     .sec-left{width: 100%;}
     .sec-right{display: none;}
     .w3col{width: 100% }
