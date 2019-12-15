@@ -345,6 +345,9 @@ input{
     color: #777777;
     background-color: #f1f1f1;
 }
+.btn2:hover{
+    background-color:lightgrey;
+}
 button{
     cursor: pointer;
 }
@@ -355,21 +358,27 @@ button{
 }
 .fa-facebook-square:hover{
     color: #777777;
+    cursor: pointer;
 }
 .fa-instagram:hover{
     color: #777777;
+    cursor: pointer;
 }
 .fa-pinterest-p:hover{
     color: #777777;
+    cursor: pointer;
 }
 .fa-snapchat:hover{
     color: #777777;
+    cursor: pointer;
 }
 .fa-twitter:hover{
     color: #777777;
+    cursor: pointer;
 }
 .fa-linkedin-in:hover{
     color: #777777;
+    cursor: pointer;
 }
 .lastt{
     color: white;
