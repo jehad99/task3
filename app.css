@@ -51,6 +51,7 @@ h3{
     display: table;
     clear: both;
     padding-bottom: 0px;
+    color: #777777;
 }
 .percentage{
     color: #000000;
@@ -87,6 +88,7 @@ h3{
     margin: auto;
     display: block;
     padding: 0px 16px 64px 16px;
+    color: #777777;
 }
 .sec-left{
     text-align: center;
@@ -127,6 +129,7 @@ p{
     padding: 16px 0px;
     font-size: 18px;
     text-align: center;
+    color: #777777;
 }
 .third-div{
     color: #FFFFFF;
@@ -166,6 +169,7 @@ p{
     padding: 64px 16px;
     text-align: center;
     font-size: 15px;
+    color: #777777;
 }
 .img-button{
     padding: 0px 8px;
@@ -214,6 +218,7 @@ p{
     content: "";
     display: table;
     clear: both;
+    color: #777777;
 }
 
 .w3col{
