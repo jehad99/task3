@@ -26,6 +26,7 @@ div.bar{
     background-color: transparent;
     float: left;
     padding: 8px 16px;
+    display: block;
 }
 .navbb{
     color: #777777;
@@ -288,9 +289,9 @@ div{
     outline: 0;
     text-align: center;
 }
-.fa-search:hover{
+.search:hover{
     background-color: red;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .fas.fa-map-marker-alt::before{
     margin: 0px 16px 0px 0px;
