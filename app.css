@@ -15,35 +15,39 @@
     background-color: #000000;
     padding: 12px 24px;
 }
-.ul{
-    margin: 0px 0px 16px 0px;
-    padding: 0px;
+div.bar{
+        position: sticky;
+        top: 0;
 }
-.bar{
-    padding: 8px 16px;
-    position: sticky;
-    list-style-type: none;
-    float: left;
-}
-.navb{
-    display: inline-block;    
+ .navb{
     color: #777777;
     font-size: 15px;
-    text-decoration: none;
-    position: sticky;
+    border: none;
+    background-color: transparent;
+    float: left;
+    padding: 8px 16px;
+}
+.navbb{
+    color: #777777;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    float: left;
+    padding: 8px 16px;
+}
+.bars{
+    display: none;
 }
 .navb:hover{
     text-decoration: none;
     color: #000000;
     background-color: lightgrey;
-}
-.search-icon{
-    float: right;
-    list-style-type: none;
-}
-.search-icon:hover{
-    color: #FFFFFF;
-    background-color: red;
+} 
+.navbb:hover{
+    text-decoration: none;
+    color: #000000;
+    background-color: lightgrey;
+
 }
 h3{
     text-align: center; 
@@ -275,6 +279,19 @@ div{
     text-align: left;
     margin: 0px 0px 16px;
 }
+.search{ 
+    float: right;
+    background-color: transparent;
+    padding: 8px 16px;
+    width: auto;
+    display: block;
+    outline: 0;
+    text-align: center;
+}
+.fa-search:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
 .fas.fa-map-marker-alt::before{
     margin: 0px 16px 0px 0px;
     display: inline-block;
@@ -285,8 +302,9 @@ div{
 .fa-phone-alt:hover{
     color: black;
 }
-
-
+.navb .fa-user:before{
+    margin: 0px;
+}
 .fas.fa-phone-alt::before{
     margin: 0px 16px 0px 0px;
     display: inline-block;
@@ -409,6 +427,11 @@ a{
 a:hover{
     color: green;
 }
+.bars:hover{
+    background-color:#000000;
+    color: #ffffff;
+
+}
 @media only screen and (max-width:600px)
 {
     .bar{display: block;}
@@ -423,4 +446,12 @@ a:hover{
     .half1{display:table-row;}
     .eight-img{width: 100%; margin: 0px;}
     .blocks{width: 100%;}
+    .search{ display: none;}
+    .navb{ display: none;}
+    .bars{
+        display: block;
+        padding: 8px 16px;
+        color: #777777;
+        float: right;
+    }
 }
